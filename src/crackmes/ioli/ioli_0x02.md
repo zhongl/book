@@ -94,9 +94,10 @@ for example:
 
 We can easily get the value of `eax`. It's 16.
 
-Directly looking at the disassembly gets hard when the scale of program grows. Rizin's flagship decompiler [rz-ghidra](https://github.com/rizinorg/rz-ghidra) might be of help, here. You can install it easily:
+Directly looking at the disassembly gets hard when the scale of program grows. Rizin's flagship decompiler [rz-ghidra](https://github.com/rizinorg/rz-ghidra) might be of help, here. You can install it easily by [rz-pm](https://github.com/rizinorg/rz-pm/):
+
 ```
-rz-pm -i rz-ghidra
+rz-pm install rz-ghidra
 ```
 
 Decompile `main()` with the following command (like `F5` in IDA):
