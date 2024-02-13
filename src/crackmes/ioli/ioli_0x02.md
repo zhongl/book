@@ -26,7 +26,7 @@ Similar to 0x01, there's no explicit password string here. So, it's time to anal
 ```
 [0x08048330]> aa
 [x] Analyze all flags starting with sym. and entry0 (aa)
-[0x08048330]> pdf@main
+[0x08048330]> pdf @ main
             ; DATA XREF from entry0 @ 0x8048347
 / 144: int main (int argc, char **argv, char **envp);
 |           ; var int32_t var_ch @ ebp-0xc
