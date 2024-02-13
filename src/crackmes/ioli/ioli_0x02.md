@@ -76,7 +76,7 @@ Similar to 0x01, there's no explicit password string here. So, it's time to anal
 
 With the experience of solving crackme0x01, we can first locate the position of `cmp` instruction by using this simple oneliner:
 ```
-[0x08048330]> pdf@main~cmp
+[0x08048330]> pdf @ main~cmp
 |           0x0804844e      3b45f4         cmp eax, dword [var_ch]
 ```
 
